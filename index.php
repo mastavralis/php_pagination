@@ -8,9 +8,9 @@
 require_once 'classPagination.php';
 
 $paged = new Pagination(); // Instantiate the Pagination Object
-$data = array("Hey","Hello","Pagination class", "awesome"); // The array with out data
+$data = array("Red","Green","Blue", "Yellow", "Orange"); // The array with out data
 
-$numbers = $paged->Paginate($data, 1);
+$numbers = $paged->Paginate($data, 2); // The second parameter is the number of items per page
 $results = $paged->fetchResults();
 
 foreach($results as $r){

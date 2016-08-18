@@ -4,6 +4,7 @@ You don't have to use database.
 
 ## How to use it
 Just put your values in the array and the class will create a simple pagination system.
+Change the "per page" parameter to show as many results as you like in every page.
 
 
 ## Styling
